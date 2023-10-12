@@ -39,7 +39,7 @@ body {
 
 
 .envelope {
-background: #FCE9DB;
+background: #4AB4DE;
     width: 500px;
     height: 300px;
     position: relative;
@@ -59,7 +59,7 @@ background: #FCE9DB;
     height: 0;
     border: 250px solid transparent;
     border-top: 0;
-    border-top: 160px solid #e7dad0;
+    border-top: 160px solid #3B90B1;
     z-index: 2;
 }
 
@@ -68,7 +68,7 @@ background: #FCE9DB;
     height: 0;
     border: 250px solid transparent;
     border-top: 0;
-    border-bottom: 150px solid  #E2D1C5;
+    border-bottom: 150px solid  #5cbbe1;
     z-index:1;
     bottom: 0;
 }
