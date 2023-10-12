@@ -1,0 +1,74 @@
+/* styles.css */
+
+body {
+    background-image: url('./repeat.jpeg');
+    background-repeat: repeat;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "content";
+}
+
+.header {
+    grid-area: header;
+    background-color: teal;
+    color: white;
+}
+
+.content {
+    grid-area: content;
+    background-color: white;
+}
+
+.stationary {
+    background-color: #ffffff;
+    transform: rotate(350deg);
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 15px;
+    box-shadow:
+            0px 4px 6px rgba(0, 0, 0, 0.1),
+            4px 4px 0px rgba(0, 0, 0, 0.1),
+            4px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.envelope {
+background: #FCE9DB;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.front-flap, .bottom-flap {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 250px solid transparent;
+    border-top: 0;
+}
+
+
+.front-flap {
+    width: 0;
+    height: 0;
+    border: 250px solid transparent;
+    border-top: 0;
+    border-top: 160px solid #e7dad0;
+    z-index: 2;
+}
+
+.bottom-flap {
+    width: 0;
+    height: 0;
+    border: 250px solid transparent;
+    border-top: 0;
+    border-bottom: 150px solid  #E2D1C5;
+    z-index:1;
+    bottom: 0;
+}
