@@ -1,9 +1,12 @@
 /* styles.css */
 
 body {
-    background-image: url('./repeat.jpeg');
+    background-image: url('./seamless-wood-background-1.jpg');
     background-repeat: repeat;
     font-family: 'Helvetica', sans-serif;
+    margin: 30px;
+    background-color: rgb(101,67,33);
+    background-blend-mode: multiply;
 }
 
 .container {
