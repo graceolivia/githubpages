@@ -67,7 +67,6 @@ body {
 
 
 .text {
-    text-align: center;
     font-size: 17px;
     font-family: Apple Chancery, cursive;
     margin-top:20px;
@@ -137,6 +136,7 @@ body {
 
 .hidden {
     display: none;
+    transition: opacity 0.5s ease;
 }
 
 #hiddenDiv {
@@ -145,4 +145,12 @@ body {
     padding: 30px;
     top: 0;
     position: sticky;
+    opacity: 1;
+}
+
+#closeLetter {
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding: 0px;
 }
