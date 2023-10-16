@@ -16,6 +16,12 @@ body {
     "content";
 }
 
+.deskbackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     grid-area: header;
     background-color: teal;
@@ -46,32 +52,10 @@ background: #4AB4DE;
     width: 500px;
     height: 300px;
     position: relative;
+    margin: 200px;
 }
 
-.front-flap, .bottom-flap {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border: 250px solid transparent;
-    border-top: 0;
-}
-
-
-.front-flap {
-    width: 0;
-    height: 0;
-    border: 250px solid transparent;
-    border-top: 0;
-    border-top: 160px solid #3B90B1;
-    z-index: 2;
-}
-
-.bottom-flap {
-    width: 0;
-    height: 0;
-    border: 250px solid transparent;
-    border-top: 0;
-    border-bottom: 150px solid  #5cbbe1;
-    z-index:1;
-    bottom: 0;
+.letter {
+    background: #f0f0f0;
+    margin: 10px;
 }
