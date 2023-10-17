@@ -1,5 +1,8 @@
 /* styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
 :root {
     --warmtone-paper-1-hex: #F2D7B6;
     --warmtone-paper-2-hex: #faeee1;
@@ -14,7 +17,7 @@
 
 
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Zeyada', cursive;
     margin: 30px;
     background-color: var(--warmtone-ponzu-brown-hex);
 }
@@ -77,10 +80,8 @@ body {
 
 
 .text {
-    font-size: 17px;
-    font-family: Apple Chancery, cursive;
+    font-size: 25px;
     margin-top:20px;
-    font-weight: bold;
     margin: 10px;
 }
 
