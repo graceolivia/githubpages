@@ -43,11 +43,6 @@ body {
     background-color: white;
 }
 
-.stationaryshadow {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
-}
-
-
 #envelope {
     position: absolute;
     transform: translate(-50%, -50%) rotate(8deg);
@@ -64,7 +59,6 @@ body {
 
 #letter {
     position: absolute;
-    background-color: #fff;
     width:230px;
     height: 180px;
     top:10px;
@@ -73,7 +67,11 @@ body {
 }
 
 .stationarystyle {
-    box-shadow: inset 0 0 0 10px var(--dusty-blue-hex);
+    box-shadow:
+            inset 0 0 0 3px var(--warmtone-paper-2-hex),
+            inset 0 0 0 5px var(--rich-red-hex),
+            inset 0 0 0 8px var(--warmtone-paper-2-hex),
+            inset 0 0 0 10px var(--rich-red-hex);
     background-color: var(--warmtone-paper-2-hex);
 }
 
@@ -83,6 +81,7 @@ body {
     font-family: Apple Chancery, cursive;
     margin-top:20px;
     font-weight: bold;
+    margin: 10px;
 }
 
 .front {
